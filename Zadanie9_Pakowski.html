@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+
+<h1>1. Składnia teoretyczna → otoczony ramką (może być tabela jedno komórkowa, 
+konieczne wcięcia). </h1>
+<p style="font-family: Arial;">
+<table border="1" align="left">
+ <tr>
+
+<td>
+< head><br>
+(...)<br>
+< link rel="Stylesheet" type="text/css" href="style.css" /><br>
+(...)<br>
+< /head><br>
+</td>
+</table>
+</p>
+<br><br><br><br><br><br>
+<h1>2. Gdzie wstawiany jest  styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz 
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS? </h1>
+<p style="font-family: Arial;">
+
+1.wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy <br>
+znacznikami <head> a </head>),<br>
+<br><br>
+
+2.Znacznik LINK jest odpoweidzialny<br>
+i może znajdować się tylko i wyłącznie w nagłówku dokumentu.<br> 
+(sekcja head )<br>
+<br><br>
+
+
+3.można dołączyć dowolną liczbę zewnętrznych arkuszy stylów  <br>
+- każdy jako osobny element <link rel="Stylesheet" />.<br>
+
+
+<br><br><br><br><br>
+
+
+<h1>3. Jaka jest najprostsza forma wstawiania stylu zewnętrznego → otoczony ramką (może 
+być tabela jedno komórkowa? </h1>
+<p style="font-family: Arial;">
+
+<p style="font-family: Arial;">
+<table border="1" align="left">
+ <tr>
+
+
+
+<table border="1" align="left">
+ <tr>
+
+<td>
+< head><br>
+< link rel="Stylesheet" type="text/css" href="style.css" /><br>
+< /head><br>
+</td>
+</table>
+
+<br><br><br><br>
+</p>
+<h1>4. Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasada 
+musi być zachowana przy większej ilości dołączanych styli? </h1>
+<p style="font-family: Arial;">
+Ilość jest nie ograniczona.<br><br>
+Zasada przy większej ilości arkuszy to (!Important) ,która<br>
+daje pierszeństwo danemu arkuszowi<br>
+<br><br><br><br>
+
+</p>
+<h1>5. Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style 
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza. </h1>
+<p style="font-family: Arial;">
+<br>
+W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. 
+
+<br><br><br><br>
+
+</p>
+<h1>6. Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego? </h1>
+<p style="font-family: Arial;">
+Otwiera sie wybrany przez siebie edytor tekstowy, wpisuje sie swoje reguły CSS.<br>
+Gdy chcemy go zedytować otwieramy plik w edytorze tekstowym i go edytujemy. <br>
+<br><br><br><br>
+
+</p>
+<h1>7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?  </h1>
+<p style="font-family: Arial;">
+Otwiera sie wybrany przez siebie edytor CSS, wpisuje sie swoje reguły CSS.
+Gdy chcemy go zedytować otwieramy plik w edytorze CSS i go edytujemy.
+<br><br><br><br>
+
+</p>
+<h1>8. Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli? </h1>
+<p style="font-family: Arial;"><BR>
+Posiadają rozszerzenie .css
+<br><br><br><br>
+
+</p>
+<h1>9. Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia? </h1>
+<p style="font-family: Arial;">
+1)wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.<br> <br> 
+2) jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich <br>
+stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez <br>
+konieczności zmiany każdej strony osobno.  <br>
+</p>
+
+<h1>10. Uwagi na temat pisania w CSS. </h1>
+1 Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu. <br>
+(sekcja head ) <br><br>
+2  można dołączyć dowolną liczbę zewnętrznych arkuszy stylów  - każdy jako osobny element < link rel="Stylesheet" />.  <br><br>
+3  W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. <br><br>
+4 Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym.  <br>Do tworzenia i
+edytowania wystarczy zwykły edytor tekst.  <br><br>
+ 5 Można się posłużyć specjalnym edytorem CSS.  <br><br>
+6  Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+rozszerzenie *.css <br>
+<p style="font-family: Arial;">
+
+</p>
+ </body>
+</html>
